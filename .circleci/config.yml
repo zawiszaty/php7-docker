@@ -2,7 +2,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: zawiszaty/php7.2
+      IMAGE_NAME: zawiszaty/php7
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
